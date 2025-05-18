@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data":{
+      "clazzName": "clazzName11",
+      "courseName": "高等数学(上)",
+      "cCourseName": "cCourseName11",
+      "cCourseUUID": "cCourseUUID11",
+      "createTime": 111222333
+  }
+}

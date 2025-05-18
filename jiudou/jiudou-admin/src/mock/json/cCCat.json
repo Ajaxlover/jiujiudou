@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "cCCatList": [
+      {
+        "chapterId": "001",
+        "chapterName": "第一章",
+        "previewUrl": "试看视频url",
+        "sonChapterList": [
+          {
+            "chapterId": "0011",
+            "chapterName": "第一节",
+            "previewUrl": "试看视频url",
+            "sonChapterList": []
+          }
+        ]
+      },
+      {
+        "chapterId": "002",
+        "chapterName": "第二章",
+        "previewUrl": "试看视频url",
+        "sonChapterList": [
+          {
+            "chapterId": "0022",
+            "chapterName": "第一节",
+            "previewUrl": "试看视频url",
+            "sonChapterList": []
+          }
+        ]
+      }
+    ]
+  }
+}

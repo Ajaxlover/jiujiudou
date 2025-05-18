@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+      "total": 2,
+      "data": [
+          {
+              "orderUniqueNum": "b67203c9425d41ae9ff3424dc2c1100d",
+              "orderT": "1564039069441",
+              "orderLabelMoney": 0.0,
+              "realBenifitMoney": 20.0,
+              "orderStatus": "10",
+              "customerNN": null,
+              "customerAcco": null,
+              "cCId": "12",
+              "creatorNN": "1",
+              "creatorAcco": "212",
+              "goodsName": "高等数学"
+          },
+          {
+              "orderUniqueNum": "8ed31cf250354c96ac023774b8a5bdfe",
+              "orderT": "1564038593622",
+              "orderLabelMoney": 0.0,
+              "realBenifitMoney": 0.0,
+              "orderStatus": "10",
+              "customerNN": null,
+              "customerAcco": null,
+              "cCId": "12",
+              "creatorNN": "2",
+              "creatorAcco": "23",
+              "goodsName": "高等数学"
+          }
+      ]
+  }
+}

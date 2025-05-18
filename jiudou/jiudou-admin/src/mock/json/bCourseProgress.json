@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "data": {
+      "totalDoneNum": 5,
+      "finishNum": 0,
+      "todayStudyNum": 0,
+      "singleTotalNum": 50,
+      "stuNum": 499
+  }
+}

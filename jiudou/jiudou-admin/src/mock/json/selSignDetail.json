@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data":[
+      {
+          "stuNum": "1122",
+          "stuName": "stuName11",
+          "signTime": 11223344,
+          "signType": 2
+      }
+  ]
+}

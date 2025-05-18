@@ -1,0 +1,9 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data":{
+      "totalTimes": 2,
+      "totalSubmitRate": "100%",
+      "totalCorrectRate": "100%"
+  }
+}

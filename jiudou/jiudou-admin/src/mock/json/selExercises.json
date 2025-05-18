@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": [
+      {
+        "exerciseId": 1,
+        "exerciseName": "exerciseName11",
+        "startTime": 11111111111,
+        "endTime": 22222222222,
+        "submitRate": "100%",
+        "averageScore": 99
+      }
+  ]
+}

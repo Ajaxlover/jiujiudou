@@ -1,0 +1,32 @@
+{
+    "code": 200,
+    "msg": "成功查询结算单",
+    "data": {
+        "total": 1,
+        "data": [
+            {
+                "stateId": 8,
+                "stateUuid": null,
+                "stateApplicantId": 2,
+                "statePayeeName": null,
+                "stateBankName": null,
+                "stateBankAccount": null,
+                "stateApplyAmount": 2,
+                "stateServiceAmount": null,
+                "statePaymentAmount": null,
+                "stateApplyTime": null,
+                "stateStatus": 1,
+                "stateDoneTime": 1565596469497,
+                "stateApplicantNickname": null,
+                "stateApplyEmail": null,
+                "stateApplyMobile": null,
+                "applicantPhone": "18711111111",
+                "pPicUrlList": [
+                    "https://test-1253402545.cos.ap-beijing-1.myqcloud.com/cCourse/cover/2-1565596469243.jpg",
+                    "https://test-1253402545.cos.ap-beijing-1.myqcloud.com/cCourse/cover/2-1565596469326.jpg",
+                    "https://test-1253402545.cos.ap-beijing-1.myqcloud.com/cCourse/cover/2-1565596469326.jpg"
+                ]
+            }
+        ]
+    }
+  }

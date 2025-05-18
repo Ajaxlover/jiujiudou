@@ -1,0 +1,32 @@
+{
+  "code": 200,
+  "msg": "登录成功",
+  "data": [
+    {
+      "cCId": "520",
+      "cCCoverPUrl": "https://img.guangyiedu.com/tiku/1560589766923.png",
+      "cCType": 2,
+      "cCTeacherCName": "老师",
+      "cCCreatorNickname": "开课用户昵称",
+      "cCCreatorAccount": "开课用户账号",
+      "cCTitle": "第一个云课",
+      "cCFeeType": 1,
+      "cCPrice": 100000,
+      "cCStatus": 1,
+      "cCAuditDescrib": "审核说明"
+    },
+    {
+      "cCId": "521",
+      "cCCoverPUrl": "",
+      "cCType": 1,
+      "cCTeacherCName": "老师",
+      "cCCreatorNickname": "开课用户昵称",
+      "cCCreatorAccount": "开课用户账号",
+      "cCTitle": "第二个云课",
+      "cCFeeType": 0,
+      "cCPrice": 100000,
+      "cCStatus": 2,
+      "cCAuditDescrib": "审核说明"
+    }
+  ]
+}

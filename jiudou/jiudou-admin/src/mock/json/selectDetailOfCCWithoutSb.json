@@ -1,0 +1,53 @@
+{
+  "code": 200,
+  "msg": "成功查询到云课详情",
+  "data": {
+    "ccourseId": 23,
+    "ccourseUuid": "ca68050e3de24e34bf48e4687a69d539",
+    "ccourseMemberId": 2,
+    "ccourseName": "我的第一个云课",
+    "ccourseCover": "https://test-1253402545.cos.ap-beijing-1.myqcloud.com/cCourse/ca68050e3de24e34bf48e4687a69d539.jpg",
+    "ccourseTeacherName": "张亮老师",
+    "ccourseIntro": "https://test.guangyiedu.com/cCourse/ca68050e3de24e34bf48e4687a69d539.html",
+    "ccourseType": 3,
+    "ccourseTags": "标签一",
+    "ccourseFeeType": 0,
+    "ccourseOldPrice": 0,
+    "ccoursePrice": 0,
+    "ccourseStatus": 2,
+    "ccourseIsOn": 2,
+    "ccourseIsLatest": 0,
+    "ccourseIsMain": 1,
+    "ccourseTotalNum": 0,
+    "ccourseCreateTime": 1563442454188,
+    "ccourseModifyTime": 1500,
+    "ccourseDelFlag": 0,
+    "ccourseIntroText": "我是地一个云课的介绍",
+    "ccSupportMaterialUrl": "高等数学第一章.pdf",
+    "ccSupportMaterialName": "ccSupportMaterialName",
+    "ccSupportMaterialSize": 12344,
+    "ccSupportMaterialTime": 1563442454188,
+    "catList": [
+      {
+        "catalogLeafSourceType": null,
+        "catalogId": 1,
+        "catalogParentId": null,
+        "catalogUuid": null,
+        "catalogCourseId": null,
+        "catalogCourseUuid": null,
+        "catalogName": "第一章",
+        "catalogType": 0,
+        "catalogSubType": 0,
+        "catalogLeafObj": null,
+        "catalogIsFree": 0,
+        "catalogCreateTime": null,
+        "catalogModifyTime": null,
+        "catalogDelFlag": null,
+        "catalogLeafNum": null,
+        "catalogLeafSourceResId": null,
+        "cloudId": null,
+        "sonCatList": []
+      }
+    ]
+  }
+}

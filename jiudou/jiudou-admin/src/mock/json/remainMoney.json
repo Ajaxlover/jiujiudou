@@ -1,0 +1,8 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": {
+    "remainMoney":500,
+    "cSProtocolUrl":""
+  }
+}

@@ -1,0 +1,19 @@
+node('master'){
+  stage('准备阶段') {
+    sh "curl 'https://oapi.dingtalk.com/robot/send?access_token=a5afca2c357da0e205503cd590eb027c35d2e17a7741ec251aba2d1f96bf115b' -H 'Content-Type: application/json' -d '{\"msgtype\": \"link\", \"link\": {\"title\": \"准备构建后台页面\",\"text\": \"构建后台页面\", \"picUrl\": \"https://img-1253402545.cos.ap-beijing-1.myqcloud.com/jenkins/ready.png\", \"messageUrl\": \"${currentBuild.absoluteUrl}\"}}'"
+  }
+  stage('打包') {
+    sh 'npm install'
+    sh 'npm run build:tf'
+  }
+  // stage('上传到外网服务器') {
+  //   sh "sshpass -p Uz6IQ0plRbxPu7Ho scp -r dist root@47.97.206.250:/mnt/"
+  // }
+  stage('发送钉钉消息') {
+    if (currentBuild.result == null || currentBuild.result == 'SUCCESS') {
+      sh "curl 'https://oapi.dingtalk.com/robot/send?access_token=a5afca2c357da0e205503cd590eb027c35d2e17a7741ec251aba2d1f96bf115b' -H 'Content-Type: application/json' -d '{\"msgtype\": \"link\", \"link\": {\"title\": \"${currentBuild.projectName} ${currentBuild.displayName}构建成功\",\"text\": \"本次发包用时:  ${currentBuild.duration}\", \"picUrl\": \"https://img-1253402545.cos.ap-beijing-1.myqcloud.com/jenkins/correct.png\", \"messageUrl\": \"${currentBuild.absoluteUrl}\"}}'"
+    } else {
+      sh "curl 'https://oapi.dingtalk.com/robot/send?access_token=a5afca2c357da0e205503cd590eb027c35d2e17a7741ec251aba2d1f96bf115b' -H 'Content-Type: application/json' -d '{\"msgtype\": \"link\", \"link\": {\"title\": \"${currentBuild.projectName} ${currentBuild.displayName}构建失败\",\"text\": \"\", \"picUrl\": \"https://img-1253402545.cos.ap-beijing-1.myqcloud.com/jenkins/error.png\", \"messageUrl\": \"${currentBuild.absoluteUrl}\"}}'"
+    }
+  }
+}

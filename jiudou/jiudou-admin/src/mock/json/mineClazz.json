@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "data": [{
+      "classId": 100,
+      "classname": "一班",
+      "coursename": "大学物理",
+      "addTime": "14000000000",
+      "isLock": 1,
+      "status": 0
+  }]
+}

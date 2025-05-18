@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": [
+      {
+          "stuNum": "1122",
+          "stuName": "stuName11",
+          "submitTime": 111222333,
+          "score": 100,
+          "status": 1
+      }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data":{
+      "signedRate": "100%",
+      "signedStuQuantity": 22,
+      "lateStuQuantity": 2,
+      "sickStuQuantity": 2,
+      "personalStuQuantity": 2,
+      "absenceStuQuantity": 2
+  }
+}

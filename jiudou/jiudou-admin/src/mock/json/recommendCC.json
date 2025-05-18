@@ -1,0 +1,54 @@
+{
+  "code": 200,
+  "msg": "登录成功",
+  "data": [
+    {
+      "cCId": "520",
+      "cCType": 2,
+      "cCTeacherCName": "老师",
+      "cCCreatorNickname": "开课用户昵称",
+      "cCCreatorAccount": "开课用户账号",
+      "cCTitle": "第一个云课",
+      "cCFeeType": 1,
+      "cCPrice": 100000,
+      "cCStatus": 1,
+      "cCCreatorPhone": "187111111111"
+    },
+    {
+      "cCId": "520",
+      "cCType": 2,
+      "cCTeacherCName": "老师",
+      "cCCreatorNickname": "开课用户昵称",
+      "cCCreatorAccount": "开课用户账号",
+      "cCTitle": "第一个云课",
+      "cCFeeType": 1,
+      "cCPrice": 100000,
+      "cCStatus": 1,
+      "cCCreatorPhone": "187111111111"
+    },
+    {
+      "cCId": "520",
+      "cCType": 2,
+      "cCTeacherCName": "老师",
+      "cCCreatorNickname": "开课用户昵称",
+      "cCCreatorAccount": "开课用户账号",
+      "cCTitle": "第一个云课",
+      "cCFeeType": 1,
+      "cCPrice": 100000,
+      "cCStatus": 1,
+      "cCCreatorPhone": "187111111111"
+    },
+    {
+      "cCId": "520",
+      "cCType": 2,
+      "cCTeacherCName": "老师",
+      "cCCreatorNickname": "开课用户昵称",
+      "cCCreatorAccount": "开课用户账号",
+      "cCTitle": "第一个云课",
+      "cCFeeType": 1,
+      "cCPrice": 100000,
+      "cCStatus": 1,
+      "cCCreatorPhone": "187111111111"
+    }
+  ]
+}

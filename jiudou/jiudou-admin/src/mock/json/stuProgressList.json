@@ -1,0 +1,46 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "data": [
+      {
+          "userId": 16957,
+          "userPic": "https://img-1253402545.cos.ap-beijing-1.myqcloud.com/avatar/201902/1551337595456-3024-4032_1551337594380.png",
+          "userNumber": "abd1234",
+          "userRealName": "张三",
+          "totalNum": 4,
+          "doneNum": 4
+      },
+      {
+          "userId": 70705,
+          "userPic": "https://img-1253402545.cos.ap-beijing-1.myqcloud.com/avatar/201902/1551337595456-3024-4032_1551337594380.png",
+          "userNumber": "abd70705",
+          "userRealName": "李四",
+          "totalNum": 4,
+          "doneNum": 2
+      },
+      {
+          "userId": 152234,
+          "userPic": "https://img-1253402545.cos.ap-beijing-1.myqcloud.com/avatar/201902/1551337595456-3024-4032_1551337594380.png",
+          "userNumber": "20131212",
+          "userRealName": "付玉英",
+          "totalNum": 4,
+          "doneNum": 2
+      },
+      {
+          "userId": 11,
+          "userPic": "http://test-1253402545.file.myqcloud.com/member/3F7E8A01B89908B4B3BE92336C9625C",
+          "userNumber": "57957118",
+          "userRealName": "我是谁",
+          "totalNum": 4,
+          "doneNum": 1
+      },
+      {
+          "userId": 804,
+          "userPic": "https://img-1253402545.cos.ap-beijing-1.myqcloud.com/avatar/201903/1552529136412-155252913715881.jpg",
+          "userNumber": "804",
+          "userRealName": "翟金磊182",
+          "totalNum": 4,
+          "doneNum": 3
+      }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "code": 200,
+  "msg": "成功查询到结果",
+  "data": [
+    {
+      "ccourseId": 23,
+      "ccourseMemberId": 2,
+      "ccourseName": "我的第一个云课",
+      "ccourseTeacherName": "张老师",
+      "ccourseType": 3,
+      "ccoursePrice": 0,
+      "creatorName": "三哥",
+      "mobile": 12312312311,
+      "ccourseIsMain": null,
+      "ccourseTotalNum": null,
+      "ccourseCreateTime": null,
+      "ccourseModifyTime": null,
+      "ccourseDelFlag": null,
+      "ccourseIntroText": null,
+      "ccSupportMaterialUrl": null,
+      "ccSupportMaterialName": null,
+      "ccSupportMaterialSize": null,
+      "ccSupportMaterialTime": null,
+      "ccourseRefuseDesc": null,
+      "selectedId": null
+    },
+    {
+      "ccourseId": 24,
+      "ccourseMemberId": 2,
+      "ccourseName": "我的第一个云课",
+      "ccourseTeacherName": "张老师",
+      "ccourseType": 3,
+      "ccoursePrice": 0,
+      "creatorName": "三哥",
+      "mobile": 12312312311,
+      "ccourseIsMain": null,
+      "ccourseTotalNum": null,
+      "ccourseCreateTime": null,
+      "ccourseModifyTime": null,
+      "ccourseDelFlag": null,
+      "ccourseIntroText": null,
+      "ccSupportMaterialUrl": null,
+      "ccSupportMaterialName": null,
+      "ccSupportMaterialSize": null,
+      "ccSupportMaterialTime": null,
+      "ccourseRefuseDesc": null,
+      "selectedId": null
+    }
+  ]
+}

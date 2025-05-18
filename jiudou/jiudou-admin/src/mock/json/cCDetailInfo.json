@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "cCCoverPUrl": "https://img.guangyiedu.com/tiku/1560589766923.png",
+    "cCTitle": "云课id",
+    "cCTeacherName": "云课id",
+    "cCType": "云课id",
+    "cCTags": "云课id",
+    "cCPrice": "10000",
+    "cCIntro": "云课id"
+  }
+}

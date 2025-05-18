@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "msg": "登录成功",
+  "data": [
+    {
+      "ccourseId": "520",
+      "ccourseUuid": null,
+      "ccourseMemberId": 2030,
+      "ccourseName": "第一个云课",
+      "ccourseCover": "https://img.guangyiedu.com/tiku/1560589766923.png",
+      "ccourseTeacherName": "翟老师",
+      "ccourseIntro": null,
+      "ccourseType": 1,
+      "ccourseTags": null,
+      "ccourseFeeType": 1,
+      "ccourseOldPrice": 20000,
+      "ccoursePrice": 10000000,
+      "ccourseStatus": 0,
+      "ccourseIsOn": 1,
+      "ccourseIsLatest": 1,
+      "ccourseIsMain": null,
+      "ccourseModifyTime": 1557388984012,
+      "ccourseRefuseDesc": "内容有误",
+      "ccourseTotalNum": null,
+      "ccourseCreateTime": null,
+      "ccourseDelFlag": null,
+      "ccourseIntroText": null,
+      "ccSupportMaterialUrl": null,
+      "ccSupportMaterialName": null,
+      "ccSupportMaterialSize": null,
+      "ccSupportMaterialTime": null,
+      "creatorName": "三哥"
+    }
+  ]
+}

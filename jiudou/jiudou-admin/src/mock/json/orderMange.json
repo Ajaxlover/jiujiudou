@@ -1,0 +1,41 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+      "total": 4,
+      "data": [
+          {
+              "orderNum": "b67203c9425d41ae9ff3424dc2c1100d",
+              "orderCreateT": "1564039069441",
+              "goodsName": "高等数学",
+              "customerUName": null,
+              "orderLabelPrice": 0,
+              "paidMoney": 2000
+          },
+          {
+              "orderNum": "8ed31cf250354c96ac023774b8a5bdfe",
+              "orderCreateT": "1564038593622",
+              "goodsName": "高等数学",
+              "customerUName": null,
+              "orderLabelPrice": 0,
+              "paidMoney": 0
+          },
+          {
+              "orderNum": "bfc854b8c8b64be4b198dfd3a3f2fd3d",
+              "orderCreateT": "1564037866040",
+              "goodsName": "高等数学",
+              "customerUName": null,
+              "orderLabelPrice": 0,
+              "paidMoney": 0
+          },
+          {
+              "orderNum": "201c8d50afb046eeb1642d915dfda1ea",
+              "orderCreateT": "1564037741483",
+              "goodsName": "计算机",
+              "customerUName": null,
+              "orderLabelPrice": 0,
+              "paidMoney": 21100
+          }
+      ]
+  }
+}

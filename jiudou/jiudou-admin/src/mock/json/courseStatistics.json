@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+    "todayUserNum": 10,
+    "freeTodayUserNum": 20,
+    "boughtUserNum": 20,
+    "totalBoughtNum": 20
+  }
+}

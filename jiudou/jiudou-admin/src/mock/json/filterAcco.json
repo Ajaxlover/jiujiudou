@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": {
+      "accoList":[{
+          "accoUniqueNum":"结算单号",
+          "uNickname":"用户昵称",
+          "uPhone":"用户手机号",
+          "payeeName":"收款人姓名",
+          "applyAccoMoney":"申请结算金额,单位:分",
+          "gYServiceFee":"服务费,单位:分",
+          "realPayMoney":"实际支付金额,单位:分",
+          "applyT":"申请时间",
+          "settledT":"结算时间",
+          "accoStatus":"结算状态"
+      }]
+  }
+}

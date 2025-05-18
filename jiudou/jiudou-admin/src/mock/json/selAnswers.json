@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": [
+      {
+        "answerId": 1,
+        "createTime": 111222333,
+        "submitRate": "100%",
+        "correctRate": "100%"
+      }
+  ]
+}

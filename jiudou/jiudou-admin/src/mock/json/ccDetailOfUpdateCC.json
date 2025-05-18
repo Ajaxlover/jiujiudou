@@ -1,0 +1,43 @@
+{
+  "code": 200,
+  "msg": "成功查询到云课详情",
+  "data": {
+    "ccourseId": 23,
+    "ccourseUuid": "ca68050e3de24e34bf48e4687a69d539",
+    "ccourseName": "我的地一个云课",
+    "ccourseCover": "https://test-1253402545.cos.ap-beijing-1.myqcloud.com/cCourse/ca68050e3de24e34bf48e4687a69d539.jpg",
+    "ccourseTeacherName": "sange",
+    "ccourseIntro": "https://test.guangyiedu.com",
+    "ccourseIntroText": "我的地一个云课",
+    "ccourseType": 3,
+    "ccourseTags": "标签一,标签二",
+    "ccourseFeeType": 1,
+    "ccourseOldPrice": 10000,
+    "ccoursePrice": 10000,
+    "ccourseStatus": 0,
+    "ccourseIsOn": 2,
+    "ccourseIsLatest": 0,
+    "ccourseIsMain": 1,
+    "ccourseTotalNum": 0,
+    "ccourseCreateTime": 1563442454188,
+    "ccourseModifyTime": 1500,
+    "ccSupportMaterialUrl": "",
+    "ccSupportMaterialName": "ccSupportMaterialName",
+    "ccSupportMaterialSize": 12344,
+    "ccSupportMaterialTime": 1563442454188,
+    "catList": [
+      {
+        "catalogId": 222,
+        "catalogParentId": 0,
+        "catalogUuid": null,
+        "catalogCourseUuid": null,
+        "catalogName": "第一章",
+        "catalogIsFree": 0,
+        "catalogCreateTime": 1563328572696,
+        "catalogModifyTime": 1563328572696,
+        "cloudId": null,
+        "sonCatList": []
+      }
+    ]
+  }
+}

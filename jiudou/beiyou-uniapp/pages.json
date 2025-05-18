@@ -1,0 +1,606 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "启动页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "北邮智信",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bookshelf/bookshelf",
+			"style": {
+				"navigationBarTitleText": "我的书架",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "书城",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/help",
+			"style": {
+				"navigationBarTitleText": "客服与帮助",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "提交",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/edit",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bookshelf/components/bookshelfItem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/bookshelf/bookDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/news",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/mall/mukeDetail",
+			"style": {
+				"navigationBarTitleText": "慕课详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/testDetail",
+			"style": {
+				"navigationBarTitleText": "测验情况",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/comment",
+			"style": {
+				"navigationBarTitleText": "写评论",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "发送",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mall/discuss",
+			"style": {
+				"navigationBarTitleText": "写讨论",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"padding-right": "10px",
+						"buttons": [{
+							"text": "发送",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px",
+							"padding-right": "10px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mall/test",
+			"style": {
+				"navigationBarTitleText": "测验详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/bookshelf/test",
+			"style": {
+				"navigationBarTitleText": "测验详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/video",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/ccourse",
+			"style": {
+				"navigationBarTitleText": "我的云课",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/ranking",
+			"style": {
+				"navigationBarTitleText": "排行",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/specialOffer",
+			"style": {
+				"navigationBarTitleText": "特价",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/report",
+			"style": {
+				"navigationBarTitleText": "举报",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/topicalDetail",
+			"style": {
+				"navigationBarTitleText": "主题详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/topical",
+			"style": {
+				"navigationBarTitleText": "发布新主题",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "发送",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mall/topicalTypeSelect",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/home/editorRecommend",
+			"style": {
+				"navigationBarTitleText": "编辑精选",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/findRecommend",
+			"style": {
+				"navigationBarTitleText": "资源推荐",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/yunkeDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "transparent",
+				"app-plus": {
+					"titleNView": {
+						"type": "float",
+						"titleText": ""
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mall/ebookDetail",
+			"style": {
+				"navigationBarTitleText": "图书详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/epub/epub",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/collect",
+			"style": {
+				"navigationBarTitleText": "收藏",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "管理",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mall/textbookDetail",
+			"style": {
+				"navigationBarTitleText": "图书详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/helpCenter",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/album",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/note",
+			"style": {
+				"navigationBarTitleText": "写笔记",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "提交",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/home/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/scan",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/bookshelf/deleteList",
+			"style": {
+				"navigationBarTitleText": "删除列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "管理",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mall/payment",
+			"style": {
+				"navigationBarTitleText": "确认支付",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/mall/paymentDetail",
+			"style": {
+				"navigationBarTitleText": "支付详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mall/yunkeComment",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"color": "#367AE7",
+							"fontSize": "32rpx",
+							"float": "right",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bookshelf/video",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/invoice",
+			"style": {
+				"navigationBarTitleText": "开票申请",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/epub/ebook",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/invoiceConfirm",
+			"style": {
+				"navigationBarTitleText": "开票申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/closeAccount",
+			"style": {
+				"navigationBarTitleText": "注销确认",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/closeAccountConfirm",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/account",
+			"style": {
+				"navigationBarTitleText": "账户",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "transparent",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "float",
+						"titleText": "账户",
+						"backgroundColor": "rgba(0,0,0,0)"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/home/recommend",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webview/share",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"float": "right",
+							"width": "30px",
+							"type": "share"
+						}]
+					}
+				}
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"bounce": "none",
+			"safearea": {
+				"background": "#ffffff",
+				"bottom": {
+					"offset": "auto"
+				}
+			}
+		}
+	},
+	"tabBar": {
+		"color": "#8A8A8F",
+		"selectedColor": "#1374CB",
+		"iconWidth": "18px",
+		"spacing": "5px",
+		"fontSize": "10px",
+		"borderStyle": "white",
+		"backgroundColor": "white",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/images/tabbar-home-normal@2x.png",
+				"selectedIconPath": "/static/images/tabbar-home-selected@2x.png"
+			},
+			{
+				"pagePath": "pages/mall/mall",
+				"text": "书城",
+				"iconPath": "static/images/tabbar-mall-normal@2x.png",
+				"selectedIconPath": "/static/images/tabbar-mall-selected@2x.png"
+			},
+			{
+				"pagePath": "pages/bookshelf/bookshelf",
+				"text": "书架",
+				"iconPath": "static/images/tabbar-bookshelf-normal@2x.png",
+				"selectedIconPath": "/static/images/tabbar-bookshelf-selected@2x.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/images/tabbar-mine-normal@2x.png",
+				"selectedIconPath": "/static/images/tabbar-mine-selected@2x.png"
+			}
+		]
+	}
+}

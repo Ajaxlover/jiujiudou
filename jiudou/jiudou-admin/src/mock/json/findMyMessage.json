@@ -1,0 +1,49 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+      "total": 4,
+      "data": [
+          {
+              "msgId": 166933,
+              "msgType": 7,
+              "msgSubType": 0,
+              "msgNum": 0,
+              "msgContent": "1212\n",
+              "msgObjId": 680,
+              "msgStatus": 0,
+              "msgTime": "1554878350626"
+          },
+          {
+              "msgId": 166932,
+              "msgType": 7,
+              "msgSubType": 0,
+              "msgNum": 0,
+              "msgContent": "1212\n",
+              "msgObjId": 680,
+              "msgStatus": 0,
+              "msgTime": "1554878347188"
+          },
+          {
+              "msgId": 166931,
+              "msgType": 7,
+              "msgSubType": 0,
+              "msgNum": 0,
+              "msgContent": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111\n",
+              "msgObjId": 680,
+              "msgStatus": 0,
+              "msgTime": "1554878309633"
+          },
+          {
+              "msgId": 166930,
+              "msgType": 7,
+              "msgSubType": 0,
+              "msgNum": 0,
+              "msgContent": "asd\n",
+              "msgObjId": 680,
+              "msgStatus": 0,
+              "msgTime": "1554794712973"
+          }
+      ]
+  }
+}

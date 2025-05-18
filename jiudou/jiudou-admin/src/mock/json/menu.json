@@ -1,0 +1,85 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": [
+    {
+      "perId": 500,
+      "perUrl": "/cloudCourse/cloudCourse",
+      "perCode": "user",
+      "perParentId": 0,
+      "children": [],
+      "perName": "云课",
+      "perType": 1,
+      "perIcon": "cloudCourseIcon",
+      "perSort": 1
+    },
+    {
+      "perId": 3,
+      "perUrl": "11",
+      "perCode": "system",
+      "perParentId": 0,
+      "children": [
+        {
+          "perId": 673,
+          "perUrl": "/system/user",
+          "perCode": "user",
+          "perParentId": 3,
+          "children": [],
+          "perName": "用户管理",
+          "perType": 1,
+          "perIcon": "dotIcon",
+          "perSort": 1
+        },
+        {
+          "perId": 699,
+          "perUrl": "/system/publication",
+          "perCode": "publication",
+          "perParentId": 3,
+          "children": [],
+          "perName": "出版社管理",
+          "perType": 1,
+          "perIcon": "",
+          "perSort": 1
+        },
+        {
+          "perId": 5,
+          "perUrl": "/system/menu",
+          "perCode": "menu",
+          "perParentId": 3,
+          "children": [],
+          "perName": "菜单管理",
+          "perType": 1,
+          "perIcon": "dotIcon",
+          "perSort": 5
+        },
+        {
+          "perId": 12,
+          "perUrl": "/system/role",
+          "perCode": "role",
+          "perParentId": 3,
+          "children": [
+            {
+              "perId": 683,
+              "perUrl": "sad",
+              "perCode": "asd",
+              "perParentId": 12,
+              "children": [],
+              "perName": "新增角色",
+              "perType": 0,
+              "perIcon": "",
+              "perSort": 3
+            }
+          ],
+          "perName": "角色管理",
+          "perType": 1,
+          "perIcon": "dotIcon",
+          "perSort": 100
+        }
+      ],
+      "perName": "系统管理",
+      "perType": 2,
+      "perIcon": "systemIcon",
+      "perSort": 8
+    }
+  ]
+}

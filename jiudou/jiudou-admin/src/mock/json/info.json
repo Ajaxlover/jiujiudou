@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+    "uid": 70705,
+    "username": "愤怒的老柴",
+    "pic": "https://img-1253402545.cos.ap-beijing-1.myqcloud.com/avatar/201902/1551259144305-1117-1117_1551259143758.png",
+    "roles": [
+      {
+        "mrId": 135,
+        "roleId": 18,
+        "roleType": 0,
+        "pubId": null,
+        "pubName": null,
+        "roleName": "系统管理员",
+        "addTime": "1521419931500"
+      },
+      {
+        "mrId": 245,
+        "roleId": 19,
+        "roleType": 0,
+        "pubId": null,
+        "pubName": null,
+        "roleName": "超级管理员",
+        "addTime": "1513060041000"
+      },
+      {
+        "mrId": 703,
+        "roleId": 26,
+        "roleType": 1,
+        "pubId": 1,
+        "pubName": "北邮出版社",
+        "roleName": "编辑",
+        "addTime": "1513060041000"
+      }
+    ]
+  }
+}

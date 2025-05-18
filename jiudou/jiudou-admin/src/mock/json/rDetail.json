@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": {
+      "rDetailList":[
+          {
+              "reportorNN":"举报者",
+              "reportorP":"18712345678",
+              "reportT":1564393288742,
+              "reportType":1,
+              "reportDesc":"补充说明"
+          }
+      ]
+  }
+}

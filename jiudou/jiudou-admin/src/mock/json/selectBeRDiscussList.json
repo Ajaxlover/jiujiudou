@@ -1,0 +1,17 @@
+{
+  "code":200,
+  "msg":"信息说明",
+  "data": {
+      "bRDiscussList":[
+          {
+              "discussId":1,
+              "cCId":2,
+              "cCName":"云课",
+              "beReportedContent":"被举报内容",
+              "reportTimes":3,
+              "lastRT":1564393288742,
+              "rStatus":0
+          }
+      ]
+  }
+}

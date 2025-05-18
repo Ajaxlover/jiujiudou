@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": [
+      {
+        "month": 1,
+        "income": 1111
+      },
+      {
+        "month": 3,
+        "income": 500
+      },
+      {
+        "month": 4,
+        "income": 200
+      }
+  ]
+}

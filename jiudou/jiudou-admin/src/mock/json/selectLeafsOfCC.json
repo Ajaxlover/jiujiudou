@@ -1,0 +1,25 @@
+{
+  "code": 200,
+  "msg": "成功查询到数据",
+  "data": [
+    {
+      "catalogLeafSourceType": null,
+      "catalogId": 7,
+      "catalogParentId": null,
+      "catalogUuid": "",
+      "catalogCourseId": null,
+      "catalogCourseUuid": null,
+      "catalogName": "testTask0",
+      "catalogType": null,
+      "catalogSubType": 9,
+      "catalogLeafObj": "contFileUrl1133",
+      "catalogIsFree": 1,
+      "catalogCreateTime": null,
+      "catalogModifyTime": null,
+      "catalogDelFlag": null,
+      "catalogLeafNum": null,
+      "catalogLeafSourceResId": null,
+      "cloudId": ""
+    }
+  ]
+}

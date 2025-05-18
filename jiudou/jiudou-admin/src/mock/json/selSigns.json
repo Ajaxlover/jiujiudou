@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": [
+      {
+        "signId": 1,
+        "createTime": 111222333,
+        "signedRate": "100%"
+      }
+  ]
+}

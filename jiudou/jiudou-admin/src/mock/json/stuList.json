@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "total": 1,
+  "data": [
+    {
+      "cuserId": "2",
+      "cuserUserpic": "https://img.guangyiedu.com/tiku/1560589766923.png",
+      "cuserUsername": "sange",
+      "cuserCreateTime": 1564042123643,
+      "learnedCatNum": 1,
+      "totalCatNum": 10
+    }
+  ]
+}

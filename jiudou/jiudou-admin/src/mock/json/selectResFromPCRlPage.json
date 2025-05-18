@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "msg": "登录成功",
+  "total": 1,
+  "data": [
+    {
+      "resourceid": "3939e842-45d8-4d40-a868-9229c4cffd2f",
+      "resName": "10刚体对轴的角动量守恒定律",
+      "resSize": "2132",
+      "resType": 2,
+      "updated": "1511235490609",
+      "resUrlWeb": "resUrlWeb",
+      "uniqueId": "uniqueId"
+    }
+  ]
+}

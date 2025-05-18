@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data": [{
+    "cCId":"云课id" ,
+    "cCName":"云课名",
+    "thisMonthEarn":"0",
+    "lastMonthEarn":"0",
+    "totalEarn":"0"
+  }]
+}

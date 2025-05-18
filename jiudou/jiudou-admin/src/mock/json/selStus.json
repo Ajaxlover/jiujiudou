@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "msg":"信息说明",
+  "data":[
+      {
+        "relationId": 1,
+        "stuNum": "1",
+        "stuName": "stuName1",
+        "stuPhone": "18711111111",
+        "addTime": "18711111111"
+      },
+      {
+        "relationId": 2,
+        "stuNum": "2",
+        "stuName": "stuName2",
+        "stuPhone": "18711111111",
+        "addTime": "18711111111"
+      },
+      {
+        "relationId": 3,
+        "stuNum": "3",
+        "stuName": "stuName3",
+        "stuPhone": "18711111111",
+        "addTime": "18711111111"
+      },
+      {
+        "relationId": 4,
+        "stuNum": "4",
+        "stuName": "stuName4",
+        "stuPhone": "18711111111",
+        "addTime": "18711111111"
+      }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "msg": "登录成功",
+  "total": 4,
+  "data": [
+    {
+      "id": 1,
+      "tSubject": 1,
+      "difficultyLevel": 0,
+      "tipId": "1,2",
+      "tipsText": "知识点",
+      "title": "题目",
+      "briefTitle": "111111",
+      "getTime": "1511235490609",
+      "uniqueId": "标签",
+      "answer": "answer",
+      "analyse": "analyse",
+      "status": 2,
+      "createTime": "111333",
+      "modifiedTime": "111333",
+      "learnPort": "learnPort1,learnPort2",
+      "review": 2,
+      "answerList": [
+        {
+          "id": 20,
+          "aBankId": 6,
+          "bankId": 6,
+          "aOption": "A",
+          "option": "A",
+          "aText": "奇函数",
+          "text": "奇函数",
+          "isCorrect": 2,
+          "sDelFlag": 1
+        }
+      ]
+    }
+  ]
+}
