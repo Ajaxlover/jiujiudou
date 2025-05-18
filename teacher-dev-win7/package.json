@@ -1,0 +1,99 @@
+{
+  "homepage": "./",
+  "name": "teacher",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/electron-main/main.js",
+  "scripts": {
+    "serve": "concurrently \"npm run dev\" \"npm run start\" ",
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "preview": "vite preview",
+    "start": "nodemon --exec electron .",
+    "start-backup": "nodemon --exec electron . --watch ./ --ext .js,.html,.scss,.vue,.ts,.css",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder",
+    "electron:dist": "vite build && electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "teacher.app",
+    "productName": "teacher",
+    "buildDependenciesFromSource": true,
+    "nodeGypRebuild": false,
+    "npmRebuild": false,
+    "win": {
+      "icon": "./public/icon.ico",
+      "artifactName": "${productName}.${ext}"
+    },
+    "directories": {
+      "output": "dist_teacher"
+    },
+    "files": [
+      "./dist",
+      "./package.json",
+      "./src/electron-main"
+    ],
+    "asar": false,
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "installerIcon": "./public/icon.ico",
+      "uninstallerIcon": "./public/icon.ico",
+      "installerHeaderIcon": "./public/icon.ico",
+      "shortcutName": "exam"
+    }
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "electron-is-dev": "^2.0.0",
+    "electron-localstorage": "^1.0.5",
+    "electron-log": "^4.4.8",
+    "electron-window-state": "^5.0.3",
+    "element-plus": "^2.2.22",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "knex": "^2.4.2",
+    "multer": "^1.4.5-lts.1",
+    "node-pre-gyp": "^0.17.0",
+    "node-xlsx": "^0.23.0",
+    "pinia": "^2.0.26",
+    "qs": "^6.11.0",
+    "rebuild": "^0.1.2",
+    "request": "^2.88.2",
+    "sqlite": "^4.2.1",
+    "sqlite3": "^5.1.7",
+    "unplugin-auto-import": "^0.11.5",
+    "unplugin-icons": "^0.14.14",
+    "unplugin-vue-components": "^0.22.11",
+    "vue": "^3.2.41",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.1.6",
+    "web-storage-cache": "^1.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.8",
+    "@types/node": "^20.3.1",
+    "@types/ws": "^8.5.5",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "electron": "21.4.4",
+    "electron-builder": "^23.6.0",
+    "electron-rebuild": "^3.2.9",
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.1",
+    "sass-loader": "^7.3.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vue-tsc": "^1.0.9",
+    "ws": "^8.13.0"
+  }
+}
